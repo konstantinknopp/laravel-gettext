@@ -27,7 +27,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Unikat\\LaravelGettext\\": "src/"
+            "Unikat\\LaravelGettext\\": "src/LaravelGettext"
         },
         "files": [
             "src/LaravelGettext/Support/helpers.php"
