@@ -1,0 +1,37 @@
+{
+    "name": "unikat/laravel-gettext",
+    "description": "Adds localization support to laravel applications in an easy way using Poedit and GNU gettext.",
+    "keywords": [
+        "gettext",
+        "localization",
+        "poedit",
+        "laravel-gettext",
+        "laravel", "translation"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Konstantin Knopp",
+            "email": "k.knopp@das-unikat.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.0",
+        "laravel/framework": "5.*"
+    },
+    "require-dev": {
+        "mockery/mockery": "dev-master",
+        "phpunit/phpunit": "~4.0",
+        "squizlabs/php_codesniffer" : "1.5.*",
+        "laravel/laravel": "5.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Unikat\\LaravelGettext\\": "src/"
+        },
+        "files": [
+            "src/LaravelGettext/Support/helpers.php"
+        ]
+    },
+    "minimum-stability": "stable"
+}
